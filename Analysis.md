@@ -28,7 +28,7 @@ At the aggregate level, the original experiment is balancing the sample size bet
 
 ![Fig 2](./viewpercentages_no_spain_argentina.png)
 
-The local translation versions tend to underperform in the majority of customer segments, but there are some instances where the local translation outperformed.  Mexican customers (4.9% to 5.1% with 92% probability) responded favorably to localization.  Perhaps, Mexican Spanish is most different from European Spanish.  Also, gender differences were significant in Argentina.  Female Argentineans really did not like the local translation.  Their conversion rate fell from 1.76% to 1.4% whereas the male conversion rate stayed at 1.3%.  There may be some gender-related problems in the local translation that we would explore further.  
+The local translation versions tend to underperform in the majority of customer segments, but the differences are not significant.  However, gender differences were significant in Argentina.  Female Argentineans really did not like the local translation.  Their conversion rate fell from 1.76% to 1.4% (p-value .04  )whereas the male conversion rate stayed constant at 1.3%.  There may be some gender-related problems in the local translation that we would explore further.  
 
 Figure 3 shows that the conversion rates for Argentina and Uruguay are low and are overrepresented in the overall conversion rate.
 
