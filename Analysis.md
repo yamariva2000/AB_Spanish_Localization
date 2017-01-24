@@ -2,14 +2,16 @@
 
 
 ##Introduction
-For purposes of this analysis, the experiment using localized Spanish for the webite will be denoted as 'A', and the control will be identified as 'B'
+The marketing department finds that the standard Spanish version of the website works especially well for Spain.  This A/B test is designed to determine if localized Spanish improves response rates Central America, Mexico, and South America.  Initial results suggest that the localization is actually worse.
+
 
 | Group        | views  | conversion | rate  |
 |--------------|--------|------------|-------|
-| Control    B | 237,338 | 13,096      | 0.055 |
-| Experiment A | 215,983 | 9,379       | 0.043 |
+| Control    A | 237,338 | 13,096      | 0.055 |
+| Experiment B | 215,983 | 9,379       | 0.043 |
 
-Using all the data in the test, the calculated conversion rates for the control and experiment are 0.055 and .043 respectively.  However, looking at the data more closely, this difference is overstated by the fact that the Spain results are in the control group and not the experiemental group thereby inflating the control results, and the large percentage of Argentinean samples in the A group is also overstating this difference.  Figure 1 illustrates this.  Argentina represents only 4% of the control group, but comprises 17% of the experiment.  Also, Spain should not be used, as its presence in the control is inflating the control numbers.
+
+Using all the data in the test, the calculated conversion rates for the control and experiment are 0.055 and .043 respectively.  However, looking at the data more closely, this difference is overstated by the fact that the Spain results are in the control group and not the experimental group thereby inflating the control results, and the large percentage of Argentinean samples in the B group is also overstating this difference.  Figure 1 illustrates this.  Argentina represents only 4% of the control group, but comprises 17% of the experiment.  Also, Spain should not be used, as its presence in the control is inflating the control numbers.
  ##Figure 1:
  
  ![Fig 1](./SamplePercent.png)
@@ -18,8 +20,8 @@ With the removal of Argentina and Spain, the differences between control and exp
 
 | Group        | views  | conversion | rate  |
 |--------------|--------|------------|-------|
-| Control    B | 176200 | 8827      | 0.050 |
-| Experiment A | 178606 | 8866       | 0.049 |
+| Control    A | 176200 | 8827      | 0.050 |
+| Experiment B | 178606 | 8866       | 0.049 |
 
 
 At the aggregate level, the original experiment is balancing the sample size between control and experiment, but it is not doing so for each customer segment.  With Spain and Argentina removed, one can see that the control and group samples have almost equal representation by country as seen in Figure 2:
