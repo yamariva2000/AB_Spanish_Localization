@@ -12,11 +12,10 @@ The marketing department finds that the standard Spanish version of the website 
 
 
 Using all the data in the test, the calculated conversion rates for the control and experiment are 0.055 and .043 respectively.  However, looking at the data more closely, this difference is overstated by the fact that the Spain results are in the control group and not the experimental group thereby inflating the control results, and the large percentage of Argentinean samples in the B group is also overstating this difference.  Figure 1 illustrates this.  Argentina represents only 4% of the control group, but comprises 17% of the experiment.  Also, Spain should not be used, as its presence in the control is inflating the control numbers.
- ##Figure 1:
  
  ![Fig 1](./SamplePercent.png)
 
-To demonstrate the effect of this imbalance, we remove remova Argentina and Spain.  The differences between control and experiment become smaller, but the control is still higher.  In practice, one would keep Argentina, but undersample the over-represented experiment group.
+To demonstrate the effect of this imbalance, we remove Argentina and Spain.  The differences between control and experiment become smaller, but the control is still higher.  In practice, one would keep Argentina, but undersample the over-represented experiment group.
 
 | Group        | views  | conversion | rate  |
 |--------------|--------|------------|-------|
