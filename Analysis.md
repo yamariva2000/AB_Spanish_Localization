@@ -16,7 +16,7 @@ Using all the data in the test, the calculated conversion rates for the control 
  
  ![Fig 1](./SamplePercent.png)
 
-With the removal of Argentina and Spain, the differences between control and experiment are smaller, but the control is still higher.
+To demonstrate the effect of this imbalance, we remove remova Argentina and Spain.  The differences between control and experiment become smaller, but the control is still higher.  In practice, one would keep Argentina, but undersample the over-represented experiment group.
 
 | Group        | views  | conversion | rate  |
 |--------------|--------|------------|-------|
@@ -24,7 +24,7 @@ With the removal of Argentina and Spain, the differences between control and exp
 | Experiment B | 178606 | 8866       | 0.049 |
 
 
-At the aggregate level, the original experiment is balancing the sample size between control and experiment, but it is not doing so for each customer segment.  With Spain and Argentina removed, one can see that the control and group samples have almost equal representation by country as seen in Figure 2:
+Only at the aggregate level, is the original experiment balancing the sample size between control and experiment  With Spain and Argentina (for illustrative purposes)removed, one can see that the control and group samples have almost equal representation by country as seen in Figure 2:
 
 ![Fig 2](./viewpercentages_no_spain_argentina.png)
 
@@ -36,7 +36,7 @@ Figure 3 shows that the conversion rates for Argentina and Uruguay are low and a
 
 ##Automated Algorithm. 
 
-In doing an A/B test, the one input that we can control is the diversion of users to the A or B site.  We need to make sure that there is a balance between the numbers chosen for A or B over all customer segments.  The list below shows the feature importances in descending order.  This was created using a random forest classifier on the conversions.
+In doing an A/B test, the one input that we can control is the diversion of users to the A or B site.  We need to make sure that there is a balance between the numbers chosen for A or B over all customer segments.  The list below shows the feature importances in descending order created by a random forest classifier.  We choose to segment on the features that are most predictive of the classification.
 
 >country_Argentina,
 browser_language_ES,
