@@ -112,7 +112,7 @@ def pivot_table(query=None,field=None,columns='test',values=None):
 
 def plot_conversions():
 
-    data=pivot_table(query = "country != 'Spain'", field=['country'],columns='test',values='conversion')
+    data=pivot_table(query = "country != 'Spain'", field='regions',columns='test',values='conversion')
     # query = "country != 'Spain'"
 
 
@@ -121,10 +121,11 @@ def plot_conversions():
     #data['b_rate'].plot(label='exp',fontsize=14,)
 
 #    ax.set_xticklabels(fontsize=13, rotation=45)
-    plt.title('Fig 3: Conversion Rate by Country',fontsize=25)
+    plt.title('Fig 3: Conversion Rates by Country/Region',fontsize=25)
     plt.yticks(fontsize=20)
     plt.ylabel('country', fontsize=20)
     plt.xlabel('conversion rate',fontsize=20)
+    plt.xticks(fontsize=20)
     plt.legend(loc=0, fontsize=20)
 
     plt.show()
@@ -170,10 +171,6 @@ def plot_pie():
 
 
 
-
-
-
-plot_pie()
 
 def algo():
     
